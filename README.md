@@ -1,4 +1,9 @@
-# Design patterns
+# TIL   
+Today I Learned   
+   
+### Ruby
+- 
+### Design patterns
 - Method template
 - Strategy
 - Observer
