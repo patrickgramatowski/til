@@ -8,3 +8,4 @@ Today I Learned
 - Strategy
 - Observer
 - Composite
+- Special case
