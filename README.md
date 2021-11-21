@@ -2,7 +2,7 @@
 Today I Learned   
    
 ### Ruby
-- Syntax
+- Syntax:
    - Regexp stuff
    - Parallel Assignment
    - Spaces as String Delimiters
