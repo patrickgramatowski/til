@@ -1,4 +1,5 @@
 (* Pattern matching *)
+(* Note: List.tl [x] -> [] *)
 let fx = function
     [] -> 0
   | h :: _ -> h (* if we dont use tail it will match for [x] *)
