@@ -24,7 +24,8 @@ let boolToStringStrategy (x: bool): string =
   
 (* Decorator for isEven - logging before and after *)
 let isEvenWithLogging (x: int): bool =
-  logWith intToStringStrategy x
+  x
+  |> logWith intToStringStrategy
   |> isEven
   |> logWith boolToStringStrategy
 
