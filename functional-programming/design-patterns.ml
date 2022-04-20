@@ -10,7 +10,7 @@ let isEven (x: int): bool =
 
   So we create a new function and its strategies.
 *)
-let logWith (strategy: 'a -> string) (x: 'a): 'a =
+let logAndReturnValueWith (strategy: 'a -> string) (x: 'a): 'a =
   print_endline (strategy x);
   x
 
@@ -25,9 +25,9 @@ let boolToStringStrategy (x: bool): string =
 (* Decorator for isEven - logging before and after *)
 let isEvenWithLogging (x: int): bool =
   x
-  |> logWith intToStringStrategy
+  |> logAndReturnValueWith intToStringStrategy
   |> isEven
-  |> logWith boolToStringStrategy
+  |> logAndReturnValueWith boolToStringStrategy
 
 (* Note: 
     isEven - : int -> bool = <fun> 
